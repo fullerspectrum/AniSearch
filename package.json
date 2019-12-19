@@ -1,0 +1,25 @@
+{
+  "name": "anisearch",
+  "version": "0.0.1",
+  "description": "Search and track anime/manga in Discord",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullerspectrum/AniSearch.git"
+  },
+  "author": "Isaiah Fuller",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fullerspectrum/AniSearch/issues"
+  },
+  "homepage": "https://github.com/fullerspectrum/AniSearch#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
